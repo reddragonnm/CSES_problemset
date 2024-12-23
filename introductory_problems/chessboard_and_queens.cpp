@@ -67,10 +67,8 @@ int main()
         getline(cin, s);
 
         for (int j = 0; j < 8; j++)
-        {
             if (s[j] == '*')
                 board[i][j] = true;
-        }
     }
 
     cout << getWays(8, board);
