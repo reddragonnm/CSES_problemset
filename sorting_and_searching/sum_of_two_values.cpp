@@ -13,6 +13,9 @@ using pi = pair<int, int>;
 
 int main()
 {
+    // better solution was to use hashmap (unordered_map) as lookup time is O(1) and iterating causes O(n)
+    // this solution is O(log n)
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);

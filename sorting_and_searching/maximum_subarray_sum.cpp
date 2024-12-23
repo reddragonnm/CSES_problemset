@@ -14,6 +14,8 @@ typedef pair<int, int> pi;
 
 int main()
 {
+    // kadane's algorithm - O(n) time (pg 23)
+
     ios::sync_with_stdio(0);
     cin.tie(0);
 

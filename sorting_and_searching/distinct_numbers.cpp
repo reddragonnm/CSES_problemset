@@ -14,6 +14,8 @@ typedef pair<int, int> pi;
 
 int main()
 {
+    // or sort array and element if it differs from last element - O(n logn)
+
     ios::sync_with_stdio(0);
     cin.tie(0);
 

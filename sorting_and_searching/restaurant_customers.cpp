@@ -13,6 +13,10 @@ using pi = pair<int, int>;
 
 int main()
 {
+    // sweep line algorithm
+    // naively creating an array uses a lot of memory
+    // using a map for the same uses unnecessary space and updates
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);

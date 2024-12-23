@@ -13,6 +13,8 @@ using pi = pair<int, int>;
 
 int main()
 {
+    // greedy algorithm for scheduling problem (pg 58)
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);

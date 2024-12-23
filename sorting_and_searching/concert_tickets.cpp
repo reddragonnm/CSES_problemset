@@ -13,6 +13,10 @@ using pi = pair<int, int>;
 
 int main()
 {
+    // multiple erases are being done, therefore multiset is better than vector as it uses red-black tree structure
+    // creating a used array is possible but complicates things unnecessarily
+    // understanding lower_bound and upper_bound is important (pg 33)
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);

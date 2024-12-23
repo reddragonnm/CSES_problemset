@@ -13,6 +13,8 @@ using pi = pair<int, int>;
 
 int main()
 {
+    // median ensures least value (pg 61)
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);

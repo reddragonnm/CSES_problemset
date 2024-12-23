@@ -14,6 +14,8 @@ typedef pair<int, int> pi;
 
 int main()
 {
+    // two pointer method
+
     ios::sync_with_stdio(0);
     cin.tie(0);
 

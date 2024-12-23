@@ -13,6 +13,9 @@ using pi = pair<int, int>;
 
 int main()
 {
+    // two pointer method for 2SUM (pg 78)
+    // for 3SUM iterate through using one element and reduce the problem to 2SUM
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
